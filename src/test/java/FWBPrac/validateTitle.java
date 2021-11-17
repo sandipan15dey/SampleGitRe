@@ -36,7 +36,7 @@ public class validateTitle extends base{
 		
 		l=new LandingPage(driver);
 		
-		System.out.println("_______________");
+		System.out.println("|||||||||||||_______________|||||||||||||||||");
 		Assert.assertEquals(l.getTitle().getText(),"FEATURED C123OURSES");
 		//log.info("Initialized for basePageNavigation text c");
 	}
