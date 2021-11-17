@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="41.901" tests="5" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\SANDIPAN\Desktop\Eclips\Maven\apache-maven-3.8.2\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="maven.conf" value="C:\Users\SANDIPAN\Desktop\Eclips\Maven\apache-maven-3.8.2/conf"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-16.0.1\bin"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="C:\Users\SANDIPAN\Desktop\Eclips\Maven\apache-maven-3.8.2"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\SANDIPAN"/>
+    <property name="user.language" value="en"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-16.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="16.0.1+9-24"/>
+    <property name="user.name" value="SANDIPAN"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\SANDIPAN\AppData\Local\Temp\"/>
+    <property name="java.version" value="16.0.1"/>
+    <property name="user.dir" value="C:\Users\SANDIPAN\eclipse-workspace\FWBP"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\SANDIPAN\eclipse-workspace\FWBP"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-16.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-16.0.1\bin;C:\Users\SANDIPAN\Desktop\Eclips\Maven\apache-maven-3.8.2\bin;C:\Users\SANDIPAN\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="16.0.1+9-24"/>
+    <property name="classworlds.conf" value="C:\Users\SANDIPAN\Desktop\Eclips\Maven\apache-maven-3.8.2\bin\m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="60.0"/>
+  </properties>
+  <testcase name="validateHeader" classname="FWBPrac.validateTitle" time="0.287">
+    <failure message="expected [An Academy to learn Everything about Testing] but found [AN ACADEMY TO LEARN EVERYTHING ABOUT TESTING]" type="java.lang.AssertionError">java.lang.AssertionError: expected [An Academy to learn Everything about Testing] but found [AN ACADEMY TO LEARN EVERYTHING ABOUT TESTING]
+	at FWBPrac.validateTitle.validateHeader(validateTitle.java:48)
+</failure>
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 95.0.4638.17 (a9d0719444d4b035e284ed1fce73bf6ccd789df2-refs/branch-heads/4638@{#178}) on port 41795
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Starting ChromeDriver 95.0.4638.17 (a9d0719444d4b035e284ed1fce73bf6ccd789df2-refs/branch-heads/4638@{#178}) on port 46362
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Starting ChromeDriver 95.0.4638.17 (a9d0719444d4b035e284ed1fce73bf6ccd789df2-refs/branch-heads/4638@{#178}) on port 10796
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 16, 2021 5:45:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Nov 16, 2021 5:45:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Nov 16, 2021 5:45:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="validationOfTitle" classname="FWBPrac.validateTitle" time="0.062">
+    <failure message="expected [FEATURED C123OURSES] but found [FEATURED COURSES]" type="java.lang.AssertionError">java.lang.AssertionError: expected [FEATURED C123OURSES] but found [FEATURED COURSES]
+	at FWBPrac.validateTitle.validationOfTitle(validateTitle.java:39)
+</failure>
+  </testcase>
+  <testcase name="validationOfNavigationBar" classname="FWBPrac.validateNavigationBar" time="0.784"/>
+  <testcase name="loginFunctionalitycheck" classname="FWBPrac.HomePage" time="2.779"/>
+  <testcase name="loginFunctionalitycheck" classname="FWBPrac.HomePage" time="14.102"/>
+</testsuite>

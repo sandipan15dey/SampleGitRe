@@ -1,0 +1,10 @@
+17:39:01.777 [TestNG-tests-3] INFO  resources.base - Restricted user
+17:45:12.476 [TestNG-tests-3] INFO  resources.base - Initialized for HomePage
+17:45:12.476 [TestNG-tests-1] INFO  resources.base - Initialized for basePageNavigation
+17:45:12.476 [TestNG-tests-2] INFO  resources.base - Initialized for basePageNav
+17:45:26.406 [TestNG-tests-1] INFO  resources.base - Navigated to home page under basePageNavigation method
+17:45:27.836 [TestNG-tests-3] INFO  resources.base - Navigated to home page under basePageNavigation Home-Page
+17:45:28.621 [TestNG-tests-2] INFO  resources.base - Navigated to home page under basePageNavigation
+17:45:28.803 [TestNG-tests-2] INFO  resources.base - Nav Bar is Displayed
+17:45:30.433 [TestNG-tests-3] INFO  resources.base - nonRestricted user
+17:45:32.984 [TestNG-tests-3] INFO  resources.base - Initialized for HomePage
