@@ -26,6 +26,8 @@ public class validateNavigationBar extends base {
 		
 		LandingPage l = new LandingPage(driver);
 		Assert.assertTrue(l.getNavBar().isDisplayed());
+		System.out.println("Nav Bar is Displayed-print 1");
+		System.out.println("Nav Bar is Displayed-print 2");
 		log.info("Nav Bar is Displayed");
 
 	}
