@@ -28,6 +28,11 @@ public class validateNavigationBar extends base {
 		Assert.assertTrue(l.getNavBar().isDisplayed());
 		System.out.println("Nav Bar is Displayed-print 1");
 		System.out.println("Nav Bar is Displayed-print 2");
+		System.out.println("_____________________");
+		System.out.println("Nav Bar is Displayed-print 3 by 1st user");
+		System.out.println("Nav Bar is Displayed-print 4");
+		System.out.println("Nav Bar is Displayed-print 5");
+		System.out.println("Nav Bar is Displayed-print 6");
 		log.info("Nav Bar is Displayed");
 
 	}
