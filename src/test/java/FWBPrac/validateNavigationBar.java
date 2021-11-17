@@ -29,10 +29,8 @@ public class validateNavigationBar extends base {
 		System.out.println("Nav Bar is Displayed-print 1");
 		System.out.println("Nav Bar is Displayed-print 2");
 		System.out.println("_____________________");
-		System.out.println("Nav Bar is Displayed-print 3 by 1st user");
-		System.out.println("Nav Bar is Displayed-print 4");
-		System.out.println("Nav Bar is Displayed-print 5");
-		System.out.println("Nav Bar is Displayed-print 6");
+		System.out.println("Nav Bar is Displayed-print 4,5,6 get deleted by 1st user");
+	
 		log.info("Nav Bar is Displayed");
 
 	}

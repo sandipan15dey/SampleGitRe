@@ -35,7 +35,7 @@ public class HomePage extends base{
 		lp.getPassword().sendKeys(Password);
 		log.info(text);
 		lp.getLogin().click();
-		
+		System.out.println("_______________");
 	}
 	
 	
